@@ -1,0 +1,52 @@
+{
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.relativenumber": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.leader": ",",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    //"editor.lineNumbers": "relative",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 20,
+    "editor.minimap.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.startupEditor": "newUntitledFile",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    // "terminal.integrated.shell.windows": "D:\\appinstall\\cmder\\Cmder.exe",
+    "terminal.integrated.shell.windows": "cmd.exe",
+    //"terminal.integrated.shell.windows": "D:\\appinstall\\cmder\\vendor\\git-for-windows\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+      "/K", "D:\\appinstall\\cmder\\vendor\\init.bat"
+    ],
+    "editor.lineNumbers": "on",
+    "workbench.colorCustomizations": {
+      "editorCursor.foreground": "#ffff00",
+      "terminalCursor.foreground": "#00ff00"
+   },
+   "terminal.integrated.rendererType": "dom",
+   "terminal.integrated.cursorBlinking": true
+   //"vscode_custom_css.imports": ["file:\\\C:\\Users\\DELL\\vscode-custom.css"],
+  //  "vscode_custom_css.policy": true,
+  }
